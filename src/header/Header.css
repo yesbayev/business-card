@@ -1,0 +1,105 @@
+.App-header {
+  background-color: #1c3464;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 30px;
+  grid-template-areas: 'Header-logo Header-card Header-portrait';
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+	.App-header {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.App-header {
+		display: flex;
+    flex-direction: column;
+	}
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1025px) {
+	.App-logo {
+		height: 30vmin;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.App-logo {
+		height: 25vmin;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Header-card {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.Header-portrait {
+  width: 30vmin;
+  height: 30vmin;
+  background: url("../header/portrait.jpg");
+  border-radius: 50%;
+  border: solid 3px #36aece;
+}
+
+@media screen and (max-width: 1025px) {
+	.Header-portrait {
+    width: 25vmin;
+    height: 25vmin;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Header-portrait {
+    width: 20vmin;
+    height: 20vmin;
+    background: url("../header/portrait_small.jpg");
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.Header-portrait {
+    width: 25vmin;
+    height: 25vmin;
+    background: url("../header/portrait_small.jpg");
+	}
+}
+
+.icons {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-auto-flow: column;
+}
+
+i:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out; 
+}
+

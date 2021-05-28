@@ -1,0 +1,99 @@
+.App-main {
+  background-color: #1c3464;
+  color: white;
+  padding: 0.5em;
+}
+
+.my-contacts {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; 
+}
+
+.box-contacts {
+  padding: 0.3em;
+  border: solid 2px #36aece;
+  transition: all 0.5s ease-out; 
+}
+
+.box-contacts:hover {
+  background: #36aece;
+  color: #000;
+  transition: all 0.5s ease-out; 
+  animation: lite 1s infinite alternate;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #36aece;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  animation: blue-circle 1.5s linear 0s infinite alternate forwards;
+}
+
+.box-contacts:hover .circle {
+  animation-play-state: paused;
+}
+
+@keyframes blue-circle {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 95%;
+  }
+}
+
+@keyframes lite {
+  0% {
+    background:  10px;
+  }
+  100% {
+    background: #36aece 10px;
+  }
+}
+
+.my-works {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.item {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+}
+
+.item img {
+  height: 170px;
+  width: 300px;
+  border: solid 3px #36aece;
+}
+
+@media screen and (max-width: 800px) {
+	.item img {
+    height: 17vmin;
+    width: 28vmin;
+	}
+}
+
+.item img:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-out; 
+}
+
+/* @media screen and (max-width: 800px) {
+	.item {
+		display: flex;
+    flex-direction: column;
+	}
+} */
