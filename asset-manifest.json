@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/business-card/static/css/main.8ee42703.chunk.css",
+    "main.js": "/business-card/static/js/main.5d943647.chunk.js",
+    "main.js.map": "/business-card/static/js/main.5d943647.chunk.js.map",
+    "runtime-main.js": "/business-card/static/js/runtime-main.1d224c3c.js",
+    "runtime-main.js.map": "/business-card/static/js/runtime-main.1d224c3c.js.map",
+    "static/js/2.3daf8c00.chunk.js": "/business-card/static/js/2.3daf8c00.chunk.js",
+    "static/js/2.3daf8c00.chunk.js.map": "/business-card/static/js/2.3daf8c00.chunk.js.map",
+    "static/js/3.4d4bd643.chunk.js": "/business-card/static/js/3.4d4bd643.chunk.js",
+    "static/js/3.4d4bd643.chunk.js.map": "/business-card/static/js/3.4d4bd643.chunk.js.map",
+    "index.html": "/business-card/index.html",
+    "static/css/main.8ee42703.chunk.css.map": "/business-card/static/css/main.8ee42703.chunk.css.map",
+    "static/js/2.3daf8c00.chunk.js.LICENSE.txt": "/business-card/static/js/2.3daf8c00.chunk.js.LICENSE.txt",
+    "static/media/JK.64b09da3.jpg": "/business-card/static/media/JK.64b09da3.jpg",
+    "static/media/Porten.ddc5238c.jpg": "/business-card/static/media/Porten.ddc5238c.jpg",
+    "static/media/logo.6ce24c58.svg": "/business-card/static/media/logo.6ce24c58.svg",
+    "static/media/portfolio.dda22785.jpg": "/business-card/static/media/portfolio.dda22785.jpg",
+    "static/media/Header.css": "/business-card/static/media/portrait.1f25ee27.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d224c3c.js",
+    "static/js/2.3daf8c00.chunk.js",
+    "static/css/main.8ee42703.chunk.css",
+    "static/js/main.5d943647.chunk.js"
+  ]
+}
